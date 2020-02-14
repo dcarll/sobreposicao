@@ -36,11 +36,11 @@ public class Account {
 	}
 
 	public void whithdraw(double amount) {
-		balance = balance + amount;
+		balance -=  amount + 5.0;
 	}
 	
 	public void deposit(double amount){
-		balance = balance - amount;
+		balance += amount;
 	}
 	
 	
